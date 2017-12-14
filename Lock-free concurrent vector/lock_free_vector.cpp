@@ -1,6 +1,6 @@
 
 /*
- * Lock-free concurrent vector implementation in C++.
+ * Lock-free concurrent vector (dynamically resizable array) implementation in C++.
  * @author: ArvindRS
  * @date: 11/21/2017
  */
@@ -252,6 +252,7 @@ void run_test(int thread_count, int limit, float split_r) {
 // Main function
 int main() {
 	
+	// Test cases
 	for(int i = 8; i <= 8; i++) {
 		std::cout << i << std::endl;
 		run_test(i, 500000, 1);
